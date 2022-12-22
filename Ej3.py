@@ -5,4 +5,4 @@ altura=float(input())
 
 indice=peso/pow(altura,2)
 
-print('Tu índice de masa corporal es: '+str(round(indice,2)))
+print(f'Tu índice de masa corporal es: {round(indice,2)}')

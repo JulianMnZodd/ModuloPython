@@ -8,7 +8,7 @@ def irAcasa():
         print('Puede ir a casa')
     else:
         tiempo= 7-hrlocal.tm_hour
-        print('le quedan',str(tiempo)+'hr de trabajo')
+        print(f'le quedan',{tiempo}+'hr de trabajo')
         
 irAcasa()
 
